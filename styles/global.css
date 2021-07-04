@@ -1,0 +1,17 @@
+:root {
+    --color-red: #e50914;
+    --color-white: #fff;
+    --color-black: #01010167;
+    --color-background-main: #181818;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Netflix Sans', sans-serif;
+    background-color: #181818;
+}

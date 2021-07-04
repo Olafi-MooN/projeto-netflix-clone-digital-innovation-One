@@ -1,0 +1,66 @@
+.wallpaper-section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.wallpaper-section .wallpaper-section-img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+    position: absolute;
+}
+
+.wallpaper-section .wallpaper-section-div {
+    z-index: 1;
+    color: white;
+    margin: 40px 7% 0px;
+}
+
+.wallpaper-section .wallpaper-section-div .wallpaper-section-div-h1 {
+    font-size: 2.4rem;
+}
+
+.wallpaper-section-div-p {
+    margin: 15px 0px;
+    color: #ffffff96;
+}
+
+.wallpaper-section-div-p .age {
+    border: 1px solid white;
+    padding: 1px 3px 6px ;
+    text-align: center;
+}
+
+.wallpaper-section-div-p-description {
+    margin-top: 40px;
+    font-size: 1rem;
+    width: 45%;
+    font-weight: 400;
+    word-spacing: -6px;
+    max-height: 150px;
+    overflow: hidden;
+}
+
+.wallpaper-section-div .walppaper-section-div-btn {
+    width: 150px;
+    font-family: 'Netflix Sans';
+    font-size: 1rem;
+    padding: 10px 0px;
+    cursor: pointer;
+    color: var(--color-white);
+    background-color: var(--color-red);
+    border-radius: 2px;
+    border: none;
+    word-spacing: -6px;
+}
+
+.wallpaper-section-div .walppaper-section-div-btn:last-child {
+    margin-left: 20px;
+    background-color: transparent;
+    border: 1px solid var(--color-white);
+}
